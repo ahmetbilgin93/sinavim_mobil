@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    app:cardElevation="12dp"
+    android:padding="13dp"
+    android:layout_margin="12dp"
+    android:id="@+id/cards2">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:id="@+id/linear2">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+            <TextView
+                android:id="@+id/textView221"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:paddingStart="20dp"
+                android:paddingTop="15dp"
+                android:text="Soru:  "
+                android:textSize="12dp"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/soruid2"
+                android:layout_width="38dp"
+                android:layout_height="30dp"
+                android:text=""
+                android:textSize="12dp"
+                app:layout_constraintStart_toEndOf="@+id/textView21"
+                tools:ignore="MissingConstraints" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <TextView
+            android:id="@+id/sorugeldi2"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:padding="20dp"
+            android:text="Soru Buraya gelecek. Soru burada görülecek. Tüm sorular bu şekilde alt alta dizilecekSoru Buraya gelecek. Soru burada görülecek. Tüm sorular bu şekilde alt alta dizilecekSoru Buraya gelecek. Soru burada görülecek. Tüm sorular bu şekilde alt alta dizilecekSoru Buraya gelecek. Soru burada görülecek. Tüm sorular bu şekilde alt alta dizilecek"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/cevapkutu2"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:paddingHorizontal="20dp"
+            android:text="Cevap:" />
+
+        <TextView
+            android:id="@+id/dogrucevap2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingStart="20dp"
+            android:text="Doğru cevap buraya gelecek. Doğru cevap buraya gelecek."
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ekle"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="4dp"
+                android:background="#43A047"
+                android:text="Sınava Ekle"
+                android:textColor="#FFFFFF"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.cardview.widget.CardView>
